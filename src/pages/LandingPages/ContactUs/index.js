@@ -40,11 +40,12 @@ function ContactUs() {
         <DefaultNavbar
           routes={routes}
           action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
+            type: "internal",
+            route: "/landing-pages/contact-us",
+            label: "Contacto",
             color: "info",
           }}
+          sticky
         />
       </MKBox>
       <Grid container spacing={3} alignItems="center">

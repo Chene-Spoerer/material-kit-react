@@ -16,7 +16,6 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -55,31 +54,6 @@ function BuiltByDevelopers() {
             From colors, cards, typography to complex elements, you will find the full
             documentation. Play with the utility classes and you will create unlimited combinations
             for our components.
-          </MKTypography>
-          <MKTypography
-            component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
-            target="_blank"
-            rel="noreferrer"
-            variant="body2"
-            color="white"
-            fontWeight="regular"
-            sx={{
-              display: "flex",
-              alignItems: "center",
-
-              "& .material-icons-round": {
-                fontSize: "1.125rem",
-                transform: `translateX(3px)`,
-                transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
-              },
-
-              "&:hover .material-icons-round, &:focus .material-icons-round": {
-                transform: `translateX(6px)`,
-              },
-            }}
-          >
-            Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
         </Grid>
       </Container>
